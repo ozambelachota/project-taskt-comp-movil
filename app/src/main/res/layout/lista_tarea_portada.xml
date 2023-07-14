@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaTareas">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="94dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="588dp"
+        android:onClick="agregar"
+        android:scaleType="fitXY"
+        android:contentDescription="boton para agregar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_agregar" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="94dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="588dp"
+        android:onClick="regresar"
+        android:scaleType="fitXY"
+        android:contentDescription="boton para regresar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_atras" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
